@@ -33,10 +33,10 @@ img_talk_button.png
 	width: 650px;
 	margin: 0 auto;
 	> .slide {
+		position: relative;
 		> h2 {
 			text-indent: -9999px;
 		}
-		position: relative;
 
 		> .slide-content {
 			display: flex;
