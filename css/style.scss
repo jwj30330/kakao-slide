@@ -32,8 +32,12 @@ img_talk_button.png
 #wrap {
 	width: 650px;
 	margin: 0 auto;
+
 	> .slide {
 		position: relative;
+		width: 500px;
+		height: 600px;
+		overflow: hidden;
 		> h2 {
 			text-indent: -9999px;
 		}
@@ -44,11 +48,13 @@ img_talk_button.png
 			position: absolute;
 			left: 50%;
 			transform: translate(-50%, 0);
+
 			> li {
 				width: 80px;
 				height: 90px;
 				text-indent: -9999px;
 				background-image: url(../images/btn_talk.png);
+
 				&:nth-child(1) {
 					// background-position: 0 0;
 					background-position: 0 -90px;
@@ -90,13 +96,14 @@ img_talk_button.png
 			flex-flow: row nowrap;
 			position: absolute;
 			top: 140px;
-			padding-left: 80px;
+			overflow: hidden;
 
 			> li {
 				text-indent: -9999px;
 				width: 478px;
 				height: 438px;
 
+				background-position: center center;
 				&:nth-child(1) {
 					background-image: url(../images/img_talk_cont1.png);
 				}
